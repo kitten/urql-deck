@@ -291,3 +291,88 @@ import Wonka from './assets/wonka-avatar.svg';
 </L.FlexSplit>
 
 ---
+
+<L.CodeSlide scale={2}>
+<L.FlexSplit>
+
+```js
+[1, 2, 3, 4, 5]
+  .map(x => x * 2)
+  .filter(x => x % 2 === 0)
+  .forEach(console.log);
+```
+
+```js
+import * as W from 'wonka';
+
+W.pipe(
+  W.fromArray([1, 2, 3, 4, 5]),
+  W.map(x => x * 2),
+  W.filter(x => x % 2 === 0),
+  W.forEach(console.log)
+);
+```
+
+</L.FlexSplit>
+</L.CodeSlide>
+
+---
+
+<L.CodeSlide scale={1.7}>
+
+```js
+import * as W from 'wonka';
+
+const exampleExchange = ({ client, forward }) => {
+  return operations$ => {
+    return forward(operations$);
+  };
+};
+```
+
+</L.CodeSlide>
+
+---
+
+<L.CodeSlide scale={1.7}>
+
+```js
+import * as W from 'wonka';
+
+const exampleExchange = ({ client, forward }) => {
+  return operations$ => {
+    const results$ = pipe(
+      operations$,
+      W.filter(filterInput),
+      forward
+    );
+
+    return pipe(
+      results$,
+      W.filter(filterOutput)
+    );
+  };
+};
+```
+
+</L.CodeSlide>
+
+---
+
+<L.SectionCard>
+
+## DEMOS
+
+</L.SectionCard>
+
+---
+
+<L.CodeSlide>
+  <C.CenterRow>
+    <img src={avatar} style={{ height: '10vw', borderRadius: '50%', marginRight: '3vw' }} />
+    <img src={formidableLogo} style={{ height: '12vw' }} />
+  </C.CenterRow>
+  <h2>@_philpl</h2>
+  <h2>@FormidableLabs</h2>
+  <h2>github.com/FormidableLabs/urql</h2>
+</L.CodeSlide>
