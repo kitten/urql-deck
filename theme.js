@@ -9,5 +9,5 @@ export default {
     text: '#090907',
     background: '#fff',
     link: '#D78F4F'
-  },
+  }
 }

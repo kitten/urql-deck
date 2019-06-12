@@ -7,7 +7,7 @@
             <tspan x="91" y="62">Ken Wheeler</tspan>
         </text>
         <text font-family="PhantomSans0.5-Regular, Phantom Sans0.5" font-size="27" letter-spacing="-.3" fill="#141414">
-            <tspan x="91" y="127">Roses are red,</tspan> <tspan x="91" y="158">Violets are purple.</tspan> <tspan x="91" y="189">If you like GraphQL,</tspan> <tspan x="91" y="220">You should fucking try urq</tspan> <tspan x="369.994" y="220">l.</tspan>
+            <tspan x="91" y="127">Roses are red,</tspan> <tspan x="91" y="158">Violets are purple.</tspan> <tspan x="91" y="189">If you like GraphQL,</tspan> <tspan x="91" y="220">You should fucking try urql.</tspan>
         </text>
         <text font-family="PhantomSans0.5-Book, Phantom Sans0.5" font-size="14" font-weight="300" fill="#657786">
             <tspan x="91" y="81">@ken_wheeler</tspan>
