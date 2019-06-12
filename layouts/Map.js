@@ -51,6 +51,7 @@ const Overlay = styled.div`
   justify-content: center;
   align-items: center;
   z-index: 1;
+  color: #fff;
 `;
 
 const zoom = [2.5];

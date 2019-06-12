@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 966 631" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>state-with-rest</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.335 0.522 188.304 0.522 188.304 166.073 0.335 166.073"></polygon>
+        <polygon id="path-3" points="41.889 0.61 220.408 0.347 188.304 36.073 0.28 35.504"></polygon>
+        <polygon id="path-5" points="0.241 36.073 32.441 0.345 32.441 165.896 0.334 201.073"></polygon>
+    </defs>
+    <g id="state-with-rest" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(76.000000, 64.000000)">
+            <rect id="Rectangle" fill="#F1D67F" fill-rule="nonzero" x="187.367" y="389.013" width="195.385" height="102.746" rx="20"></rect>
+            <g id="Group-2" opacity="0.999255952" transform="translate(576.000000, 32.000000)">
+                <g id="Clipped" transform="translate(0.000000, 35.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Path"></g>
+                    <g id="Group" mask="url(#mask-2)" fill-rule="nonzero">
+                        <g transform="translate(-7.000000, 0.000000)">
+                            <polygon id="Path" fill="#EFCAD5" points="7.335 0.522 195.304 0.522 195.304 166.073 7.335 166.073"></polygon>
+                            <path d="M0.263,22.964 L27.8,11.72 L40.814,43.593 L13.277,54.837 L0.263,22.964 Z M172.985,150.485 L181.075,139.409 L189.683,150.485 L185.356,150.485 L185.356,160.836 L177.277,160.836 L177.277,150.485 L172.985,150.485 Z" id="Shape" fill="#564F51"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Clipped">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Path"></g>
+                    <g id="Group" mask="url(#mask-4)" fill-rule="nonzero">
+                        <polygon id="Path" fill="#FFE3EB" points="33.791 0.42 220.408 0.347 188.304 36.073 0.28 35.505 33.791 0.421"></polygon>
+                        <polygon id="Path" fill="#564F51" points="202.106 21.486 209.293 14.181 19.429 13.37 12.916 20.66"></polygon>
+                    </g>
+                </g>
+                <polygon id="Path" fill="#D2A0AE" fill-rule="nonzero" points="188.241 36.073 220.441 0.345 220.441 165.896 188.335 201.073"></polygon>
+                <g id="Clipped" transform="translate(188.000000, 0.000000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Path"></g>
+                    <polygon id="Path" fill="#564F51" fill-rule="nonzero" mask="url(#mask-6)" points="13.394 20.239 19.868 13.289 20.425 179.031 14.445 186.197"></polygon>
+                </g>
+            </g>
+            <text id="Store" font-family="PhantomSans0.5-Medium, Phantom Sans0.5" font-size="62" font-weight="400" fill="#141414">
+                <tspan x="211.776648" y="457.886">Store</tspan>
+            </text>
+            <text id="fetch" font-family="PhantomSans0.5-Medium, Phantom Sans0.5" font-size="48" font-weight="400" fill="#141414">
+                <tspan x="42.974" y="292.5">fetch</tspan>
+            </text>
+            <text id="transform" font-family="PhantomSans0.5-Medium, Phantom Sans0.5" font-size="48" font-weight="400" fill="#141414">
+                <tspan x="581" y="440.386">transform</tspan>
+            </text>
+            <path d="M416.955,440.083 C415.298146,440.083 413.955,441.426146 413.955,443.083 C413.955,444.739854 415.298146,446.083 416.955,446.083 L416.955,440.083 L416.955,440.083 Z M649.68,269.323 C648.866331,267.880076 647.03715,267.369732 645.594,268.183 L622.073,281.439 C620.676074,282.2741 620.199399,284.070476 620.998502,285.4883 C621.797605,286.906125 623.581203,287.428584 625.019,286.666 L645.926,274.882 L657.711,295.79 C658.524515,297.233396 660.354104,297.744015 661.7975,296.9305 C663.240896,296.116985 663.751515,294.287396 662.938,292.844 L649.68,269.323 L649.68,269.323 Z M416.955,446.083 C474.052,446.083 524.336,431.153 564.372,401.785 C604.419,372.409 634.013,328.735 649.957,271.602 L644.177,269.989 C628.548,325.994 599.655,368.463 560.824,396.947 C521.982,425.438 472.997,440.084 416.955,440.083 L416.955,446.083 L416.955,446.083 Z" id="Shape" fill="#282530" fill-rule="nonzero"></path>
+            <g id="Group-3" transform="translate(0.224000, 0.455000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#EFCAD5" points="0 122.623 98.75 122.623 98.75 19.058 81.343 0.04 0 0.04"></polygon>
+                <polygon id="Path" fill-opacity="0.09" fill="#000000" points="83.517 3.499 98.739 18.973 98.739 22.169 79.263 23.293"></polygon>
+                <polygon id="Path" fill="#564F51" points="81.336 -3.55271368e-14 98.738 19.003 76.704 19.003"></polygon>
+            </g>
+            <g id="Group-3" transform="translate(120.224000, 0.455000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#EFCAD5" points="0 122.623 98.75 122.623 98.75 19.058 81.343 0.04 0 0.04"></polygon>
+                <polygon id="Path" fill-opacity="0.09" fill="#000000" points="83.517 3.499 98.739 18.973 98.739 22.169 79.263 23.293"></polygon>
+                <polygon id="Path" fill="#564F51" points="81.336 -3.55271368e-14 98.738 19.003 76.704 19.003"></polygon>
+            </g>
+            <g id="Group-3" transform="translate(240.224000, 0.455000)" fill-rule="nonzero">
+                <polygon id="Path" fill="#EFCAD5" points="0 122.623 98.75 122.623 98.75 19.058 81.343 0.04 0 0.04"></polygon>
+                <polygon id="Path" fill-opacity="0.09" fill="#000000" points="83.517 3.499 98.739 18.973 98.739 22.169 79.263 23.293"></polygon>
+                <polygon id="Path" fill="#564F51" points="81.336 -3.55271368e-14 98.738 19.003 76.704 19.003"></polygon>
+            </g>
+            <path d="M198.045,164.824 C198.382424,163.211121 197.355811,161.627987 195.74559,161.278094 C194.13537,160.928201 192.54434,161.942535 192.182,163.55 L198.045,164.824 Z M211.885,364.284 C213.41207,364.925304 215.169928,364.207747 215.812,362.681 L226.274,337.791 C226.916307,336.263657 226.198843,334.504807 224.6715,333.8625 C223.144157,333.220193 221.385307,333.937657 220.743,335.465 L211.443,357.591 L189.318,348.291 C187.799571,347.689408 186.078841,348.412573 185.446028,349.918258 C184.813216,351.423943 185.500701,353.159237 186.993,353.823 L211.884,364.284 L211.885,364.284 Z M192.181,163.55 C178.901,224.646 183.724,297.62 210.268,362.652 L215.823,360.385 C189.746,296.495 185.016,224.758 198.044,164.825 L192.181,163.55 Z" id="Shape" fill="#282530" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

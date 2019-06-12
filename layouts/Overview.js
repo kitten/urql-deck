@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 const Container = styled.div`
   display: flex;
@@ -7,23 +7,26 @@ const Container = styled.div`
   align-items: center;
   width: 100vw;
   height: 100vh;
-  background: #F1D67F;
+  background: ${p => p.secondary ? '#9EB9D6' : '#F1D67F'};
 `;
 
 const Content = styled.div`
-  margin-right: 3em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  font-family: Ricochet;
-  font-weight: bold;
+
+  ${p => !p.secondary && css`
   text-align: left;
+    margin-right: 3em;
+    font-family: Ricochet;
+    font-weight: bold;
+  `};
 `;
 
-const Overview = ({ children }) => (
-  <Container>
-    <Content>
+const Overview = ({ secondary, children }) => (
+  <Container secondary={secondary}>
+    <Content secondary={secondary}>
       {children}
     </Content>
   </Container>

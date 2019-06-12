@@ -10,6 +10,7 @@ const CodeSlide = styled.div`
   width: 100vw;
   height: 100vh;
   background: #011627;
+  color: #fff;
 `;
 
 export default CodeSlide;

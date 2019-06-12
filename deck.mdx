@@ -1,5 +1,6 @@
 import './main.css';
 import * as L from './layouts';
+import * as C from './components';
 export { default as theme } from './theme';
 
 import Cover from './assets/cover.svg';
@@ -9,11 +10,129 @@ import Cover from './assets/cover.svg';
 ---
 
 import geojson from './data/officesgeo.json';
+import avatar from './images/avatar.jpg';
 import formidableLogo from './images/Formidable-Icon.png';
 
 <L.Map geojson={geojson}>
-  <img src={formidableLogo} style={{ width: '10vw' }} />
+  <C.CenterRow>
+    <img src={avatar} style={{ height: '10vw', borderRadius: '50%', marginRight: '3vw' }} />
+    <img src={formidableLogo} style={{ height: '12vw' }} />
+  </C.CenterRow>
+  <h3>@_philpl</h3>
+  <h3>@FormidableLabs</h3>
 </L.Map>
+
+---
+
+<L.Overview secondary>
+
+## “What is urql?”
+## “What does a GraphQL client do?”
+
+</L.Overview>
+
+---
+
+<L.CodeSlide scale={1.5}>
+
+## What is GraphQL?
+
+```graphql
+type Actor = {
+  id: ID!
+  name: String!
+}
+
+type Movie = {
+  id: ID!
+  name: String!
+  actors: [Actor]
+}
+
+type Query = {
+  movie(id: ID!): Movie
+}
+```
+
+</L.CodeSlide>
+
+---
+
+<L.CodeSlide scale={2}>
+<L.FlexSplit>
+
+```graphql
+query GetMovie($id: ID!) {
+  movie(id: $id) {
+    id
+    name
+    genre {
+      id
+      name
+    }
+  }
+}
+```
+
+```json
+{
+  "movie": {
+    "id": "123",
+    "name": "Black Panther",
+    "genre": {
+      "id": "action",
+      "name": "Action"
+    }
+  }
+}
+```
+
+</L.FlexSplit>
+</L.CodeSlide>
+
+---
+
+<L.CodeSlide scale={2}>
+
+```js
+const query = `
+  query GetMovie($id: ID!) {
+    movie(id: $id) {
+      ...
+    }
+  }
+`;
+
+fetch('/graphql', {
+  method: 'post',
+  body: JSON.stringify({
+    query,
+    variables: { id: '123' }
+  })
+})
+```
+
+</L.CodeSlide>
+
+---
+
+<L.Overview secondary>
+
+## “What does this look like in React?”
+
+</L.Overview>
+
+---
+
+import StateRest from './assets/state-with-rest.svg';
+
+<L.VertCenter secondary><StateRest /></L.VertCenter>
+
+---
+
+import GraphQLIO from './assets/graphql-io.svg';
+
+<L.VertCenter><GraphQLIO /></L.VertCenter>
 
 ---
 
@@ -122,20 +241,25 @@ const Home = () => {
 
 ---
 
-import Wonka from './assets/wonka-avatar.svg';
+<L.SectionCard>
 
-<L.FlexSplit>
+## Novelty
 
-## Wonka
-
-<Wonka />
-</L.FlexSplit>
+</L.SectionCard>
 
 ---
 
 import DlDiagram from './assets/dl-diagram.svg';
 
 <L.VertCenter><DlDiagram /></L.VertCenter>
+
+---
+
+<L.SectionCard>
+
+## Extensibility
+
+</L.SectionCard>
 
 ---
 
@@ -157,16 +281,13 @@ import ExchangeChain from './assets/exchange-chain.svg';
 
 ---
 
-<L.SectionCard>
+import Wonka from './assets/wonka-avatar.svg';
 
-## Novelty
+<L.FlexSplit>
 
-</L.SectionCard>
+## Wonka
+
+<Wonka />
+</L.FlexSplit>
 
 ---
-
-<L.SectionCard>
-
-## Extensibility
-
-</L.SectionCard>

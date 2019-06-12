@@ -1,33 +1,20 @@
-import styled from '@emotion/styled'
+import styled from 'styled-components';
 
-import {
-  alignItems,
-  justifyContent,
-  flexWrap,
-  flexDirection,
-} from 'styled-system'
+const VertCenter = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 
-const VertCenter = styled('div')(
-  {
-    display: 'flex',
-    width: '100%',
-    height: '100%',
-    '> *': {
-      width: '100vw',
-      maxWidth: '100vw',
-      maxHeight: '100vh'
-    }
-  },
-  alignItems,
-  justifyContent,
-  flexWrap,
-  flexDirection
-)
+  width: 100%;
+  height: 100%;
+  background: ${p => p.secondary ? '#9EB9D6' : 'inherit'};
 
-VertCenter.defaultProps = {
-  justifyContent: 'center',
-  alignItems: 'stretch',
-  flexDirection: 'column',
-}
+  & > * {
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+`;
 
 export default VertCenter
