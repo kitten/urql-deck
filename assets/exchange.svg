@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 1197 490" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>exchange</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50.1841971%" y1="89.5933884%" x2="48.11619%" y2="12.9220782%" id="linearGradient-1">
+            <stop stop-color="#797585" offset="4.83871%"></stop>
+            <stop stop-color="#95919F" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50.8421765%" y1="57.7216725%" x2="44.5007782%" y2="-1.17144778%" id="linearGradient-2">
+            <stop stop-color="#282530" offset="0.806452%"></stop>
+            <stop stop-color="#3A3842" offset="93.75%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="exchange" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="conveyor" transform="translate(51.966844, 55.000000)">
+            <g id="Conveyor" transform="translate(666.000000, 71.000000)" stroke="#282530" stroke-linecap="round" stroke-linejoin="round">
+                <polygon id="Path" stroke-width="4" fill="#F0EFF4" points="269.11 27.303 105.764 68.916 0.703 42.415 165.176 0.534"></polygon>
+                <polygon id="Path" stroke-width="3" fill="#282530" points="106.387 68.789 107.037 76.815 269.05 33.806 269.05 27.909"></polygon>
+            </g>
+            <g id="Conveyor_2" transform="translate(501.000000, 113.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="269.337 27.383 105.992 68.997 0.931 42.495 165.404 0.614"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="108.594 68.316 108.594 75.222 270.809 35.11 270.809 27.898"></polygon>
+                <path d="M269.489,30.916 C269.265,28.93 270.191,27.196 271.557,27.041 C272.924,26.887 274.213,28.371 274.437,30.357 C274.662,32.342 273.736,34.077 272.369,34.231 C271.003,34.386 269.713,32.901 269.489,30.916 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+            <g id="Layer-1" transform="translate(314.000000, 0.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round" points="138.278 77.753 296.103 41.205 296.103 217.858 138.278 254.406"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#EBE9F0" stroke-linecap="round" stroke-linejoin="round" points="138.832 254.96 0.389 215.089 0.389 38.989 138.278 77.602"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#EBE9F0" stroke-linecap="round" stroke-linejoin="round" points="138.832 254.96 0.389 215.089 0.389 38.989 138.278 77.602"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#F0EEF3" stroke-linecap="round" stroke-linejoin="round" points="293.793 41.205 159.322 0.399 0.139 38.989 138.278 77.954"></polygon>
+                <path d="M14.113,219.118 C14.113,219.118 14.09,125.865 14.113,105.56 C14.126,94.154 19.417,91.921 27.902,93.818 C49.017,98.539 80.409,107 105.867,112.53 C116.63,114.868 121.721,122.659 121.766,131.937 C121.89,157.934 121.766,250.497 121.766,250.497 L14.113,219.118 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="119.163 226.022 15.181 197.727 119.163 171.857"></polygon>
+            </g>
+            <g id="Conveyor_3" transform="translate(162.000000, 197.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="270.036 27.497 106.691 69.11 1.63 42.608 166.103 0.727"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.4 69.11 106.4 76.346 263.738 34.919 263.738 29.022"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.84 76.346 0.911 50.364 0.911 42.505 106.966 68.924"></polygon>
+                <path d="M104.061,73.008 C103.837,71.022 104.763,69.287 106.13,69.133 C107.496,68.979 108.785,70.463 109.01,72.449 C109.234,74.434 108.308,76.169 106.942,76.323 C105.575,76.478 104.286,74.993 104.061,73.008 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+            <g id="Conveyor_4" transform="translate(0.000000, 239.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="268.536 27.275 105.19 68.888 0.13 42.386 164.603 0.505"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.185 67.541 106.185 74.446 268.4 34.334 268.4 27.122"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.185 74.446 0.13 48.453 0.13 40.594 106.185 67.012"></polygon>
+                <path d="M266.061,31.008 C265.837,29.022 266.763,27.287 268.13,27.133 C269.496,26.979 270.785,28.463 271.01,30.449 C271.234,32.434 270.308,34.169 268.942,34.323 C267.575,34.478 266.286,32.993 266.061,31.008 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+        </g>
+        <g id="conveyor" transform="translate(223.000000, 108.000000)">
+            <g id="Conveyor" transform="translate(666.000000, 71.000000)" stroke="#282530" stroke-linecap="round" stroke-linejoin="round">
+                <polygon id="Path" stroke-width="4" fill="#F0EFF4" points="269.11 27.303 105.764 68.916 0.703 42.415 165.176 0.534"></polygon>
+                <polygon id="Path" stroke-width="3" fill="#282530" points="106.387 68.789 107.037 76.815 269.05 33.806 269.05 27.909"></polygon>
+            </g>
+            <g id="Conveyor_2" transform="translate(501.000000, 113.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="269.337 27.383 105.992 68.997 0.931 42.495 165.404 0.614"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="108.594 68.316 108.594 75.222 270.809 35.11 270.809 27.898"></polygon>
+                <path d="M269.489,30.916 C269.265,28.93 270.191,27.196 271.557,27.041 C272.924,26.887 274.213,28.371 274.437,30.357 C274.662,32.342 273.736,34.077 272.369,34.231 C271.003,34.386 269.713,32.901 269.489,30.916 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+            <g id="Layer-1" transform="translate(314.000000, 0.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="url(#linearGradient-1)" stroke-linecap="round" stroke-linejoin="round" points="138.278 77.753 296.103 41.205 296.103 217.858 138.278 254.406"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#EBE9F0" stroke-linecap="round" stroke-linejoin="round" points="138.832 254.96 0.389 215.089 0.389 38.989 138.278 77.602"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#EBE9F0" stroke-linecap="round" stroke-linejoin="round" points="138.832 254.96 0.389 215.089 0.389 38.989 138.278 77.602"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="6" fill="#F0EEF3" stroke-linecap="round" stroke-linejoin="round" points="293.793 41.205 159.322 0.399 0.139 38.989 138.278 77.954"></polygon>
+                <path d="M14.113,219.118 C14.113,219.118 14.09,125.865 14.113,105.56 C14.126,94.154 19.417,91.921 27.902,93.818 C49.017,98.539 80.409,107 105.867,112.53 C116.63,114.868 121.721,122.659 121.766,131.937 C121.89,157.934 121.766,250.497 121.766,250.497 L14.113,219.118 Z" id="Path" fill="url(#linearGradient-2)"></path>
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="119.163 226.022 15.181 197.727 119.163 171.857"></polygon>
+            </g>
+            <g id="Conveyor_3" transform="translate(162.000000, 197.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="270.036 27.497 106.691 69.11 1.63 42.608 166.103 0.727"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.4 69.11 106.4 76.346 263.738 34.919 263.738 29.022"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.84 76.346 0.911 50.364 0.911 42.505 106.966 68.924"></polygon>
+                <path d="M104.061,73.008 C103.837,71.022 104.763,69.287 106.13,69.133 C107.496,68.979 108.785,70.463 109.01,72.449 C109.234,74.434 108.308,76.169 106.942,76.323 C105.575,76.478 104.286,74.993 104.061,73.008 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+            <g id="Conveyor_4" transform="translate(0.000000, 239.000000)">
+                <polygon id="Path" stroke="#282530" stroke-width="4" fill="#F0EFF4" stroke-linecap="round" stroke-linejoin="round" points="268.536 27.275 105.19 68.888 0.13 42.386 164.603 0.505"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.185 67.541 106.185 74.446 268.4 34.334 268.4 27.122"></polygon>
+                <polygon id="Path" stroke="#282530" stroke-width="3" fill="#282530" stroke-linecap="round" stroke-linejoin="round" points="106.185 74.446 0.13 48.453 0.13 40.594 106.185 67.012"></polygon>
+                <path d="M266.061,31.008 C265.837,29.022 266.763,27.287 268.13,27.133 C269.496,26.979 270.785,28.463 271.01,30.449 C271.234,32.434 270.308,34.169 268.942,34.323 C267.575,34.478 266.286,32.993 266.061,31.008 Z" id="Path" fill="#F0EFF4"></path>
+            </g>
+        </g>
+        <path id="Line" d="M289.615293,224.828894 L65.3488747,280.895499 C63.4735925,281.364319 61.5733218,280.224157 61.1045012,278.348875 C60.6356807,276.473593 61.7758431,274.573322 63.6511253,274.104501 L287.917543,218.037897 L284.601206,204.772549 C284.289589,203.52608 285.047436,202.263001 286.293906,201.951384 C286.644283,201.863789 287.010244,201.858975 287.362804,201.937322 L324.849152,210.267621 C326.103388,210.54634 326.8942,211.789045 326.615481,213.043281 C326.506287,213.534657 326.240664,213.977361 325.858483,214.304945 L296.702435,239.295843 C295.726918,240.132 294.258266,240.019027 293.422109,239.043511 C293.187069,238.769297 293.0191,238.444125 292.931506,238.093747 L289.615293,224.828894 Z" fill="#282530" fill-rule="nonzero"></path>
+        <path id="Line" d="M524.384707,422.171106 L748.651125,366.104501 C750.526407,365.635681 752.426678,366.775843 752.895499,368.651125 C753.364319,370.526407 752.224157,372.426678 750.348875,372.895499 L526.082457,428.962103 L529.39867,442.226956 C529.486264,442.577334 529.491079,442.943294 529.412732,443.295855 C529.134013,444.550091 527.891308,445.340903 526.637072,445.062184 L489.150724,436.731884 C488.659349,436.62269 488.216644,436.357067 487.889061,435.974886 C487.052904,434.99937 487.165877,433.530718 488.141393,432.694561 L517.297442,407.703662 C517.571656,407.468622 517.896827,407.300653 518.247205,407.213059 C519.493674,406.901442 520.756753,407.659289 521.068371,408.905758 L524.384707,422.171106 Z" fill="#282530" fill-rule="nonzero"></path>
+    </g>
+</svg>

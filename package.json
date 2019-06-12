@@ -1,0 +1,17 @@
+{
+  "name": "urql-deck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "mdx-deck deck.mdx --webpack webpack.config.js"
+  },
+  "devDependencies": {
+    "file-loader": "^4.0.0",
+    "mdx-deck": "^2.3.2",
+    "react-svg-loader": "^3.0.3"
+  },
+  "dependencies": {
+    "styled-components": "^5.0.0-alpha.2"
+  }
+}

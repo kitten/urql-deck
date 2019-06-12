@@ -1,0 +1,65 @@
+@import('https://dank.sh/static/dmvendor.css');
+
+@font-face {
+    font-family: 'Phantom Sans0.5';
+    src:    url('./fonts/phantom-sans/PhantomSans0.5-Medium.woff') format('woff'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Medium.woff2') format('woff2'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'Phantom Sans0.5';
+    src:    url('./fonts/phantom-sans/PhantomSans0.5-Semibold.woff') format('woff'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Semibold.woff2') format('woff2'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'Phantom Sans0.5';
+    src:    url('./fonts/phantom-sans/PhantomSans0.5-Book.woff') format('woff'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Book.woff2') format('woff2'),
+            url('./fonts/phantom-sans/PhantomSans0.5-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'Phantom Sans0.5';
+    src:    url('./fonts/phantom-sans/PhantomSans-Regular.woff') format('woff'),
+            url('./fonts/phantom-sans/PhantomSans-Regular.woff2') format('woff2'),
+            url('./fonts/phantom-sans/PhantomSans-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'Phantom Sans0.5';
+    src:    url('./fonts/phantom-sans/PhantomSans-Bold.woff') format('woff'),
+            url('./fonts/phantom-sans/PhantomSans-Bold.woff2') format('woff2'),
+            url('./fonts/phantom-sans/PhantomSans-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1;
+}
+
+@font-face {
+    font-family: 'Ricochet';
+    src:    url('./fonts/ricochet/Ricochet.woff') format('woff'),
+            url('./fonts/ricochet/Ricochet.woff2') format('woff2'),
+            url('./fonts/ricochet/Ricochet.ttf') format('truetype');
+  font-weight: bold;
+    line-height: 1;
+}
+
+html, body {
+    font-family: 'Phantom Sans0.5', sans-serif;
+    line-height: 1.5;
+}
