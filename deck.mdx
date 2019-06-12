@@ -1,83 +1,93 @@
 import './main.css';
-import { FlexSplit, VertCenter, VertCover, SectionCard } from './layouts';
+import * as L from './layouts';
 export { default as theme } from './theme';
 
 import Cover from './assets/cover.svg';
 
-<VertCover><Cover /></VertCover>
+<L.VertCover><Cover /></L.VertCover>
+
+---
+
+<L.Overview>
+
+## Simplicity
+## Novelty
+## Extensibility
+
+</L.Overview>
 
 ---
 
 import KenTweet from './assets/ken-tweet-urql.svg';
 
-<VertCenter><KenTweet /></VertCenter>
+<L.VertCenter><KenTweet /></L.VertCenter>
+
+---
+
+<L.SectionCard>
+
+## Simplicity
+
+</L.SectionCard>
 
 ---
 
 import Urkel from './assets/urkel-avatar.svg';
 
-<FlexSplit>
+<L.FlexSplit>
 
-# urql
+## urql
 
 <Urkel />
-</FlexSplit>
+</L.FlexSplit>
 
 ---
 
 import Wonka from './assets/wonka-avatar.svg';
 
-<FlexSplit>
+<L.FlexSplit>
 
-# Wonka
+## Wonka
 
 <Wonka />
-</FlexSplit>
+</L.FlexSplit>
 
 ---
 
 import DlDiagram from './assets/dl-diagram.svg';
 
-<VertCenter><DlDiagram /></VertCenter>
+<L.VertCenter><DlDiagram /></L.VertCenter>
 
 ---
 
 import StreamDiagram from './assets/stream.svg';
 
-<VertCenter><StreamDiagram /></VertCenter>
+<L.VertCenter><StreamDiagram /></L.VertCenter>
 
 ---
 
 import ExchangeDiagram from './assets/exchange.svg';
 
-<VertCenter><ExchangeDiagram /></VertCenter>
+<L.VertCenter><ExchangeDiagram /></L.VertCenter>
 
 ---
 
 import ExchangeChain from './assets/exchange-chain.svg';
 
-<VertCenter><ExchangeChain /></VertCenter>
+<L.VertCenter><ExchangeChain /></L.VertCenter>
 
 ---
 
-<SectionCard>
+<L.SectionCard>
 
-# Novelty
+## Novelty
 
-</SectionCard>
-
----
-
-<SectionCard>
-
-# Simplicity
-
-</SectionCard>
+</L.SectionCard>
 
 ---
 
-<SectionCard>
+<L.SectionCard>
 
-# Extensibility
+## Extensibility
 
-</SectionCard>
+</L.SectionCard>
