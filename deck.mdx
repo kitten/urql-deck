@@ -8,6 +8,15 @@ import Cover from './assets/cover.svg';
 
 ---
 
+import geojson from './data/officesgeo.json';
+import formidableLogo from './images/Formidable-Icon.png';
+
+<L.Map geojson={geojson}>
+  <img src={formidableLogo} style={{ width: '10vw' }} />
+</L.Map>
+
+---
+
 <L.Overview>
 
 ## Simplicity
