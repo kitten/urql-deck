@@ -32,6 +32,53 @@ import KenTweet from './assets/ken-tweet-urql.svg';
 
 ---
 
+<L.CodeSlide scale={2}>
+
+```js
+// old urql v0.0.1
+import { Provider, Client } from 'urql';
+
+const client = new Client({
+  url: '/graphql'
+});
+
+export const App = () => (
+  <Provider client={client}>
+    {/* ... */}
+  </Provider>
+);
+```
+
+</L.CodeSlide>
+
+---
+
+<L.CodeSlide scale={1.7}>
+
+```js
+// old urql v0.0.1
+import { Connect, qury, mutation } from 'urql';
+
+const TodoQuery = `query { }`;
+const AddTodo = `mutation($text: String!) { }`;
+
+const Home = () => (
+  <Connect
+    query={query(TodoQuery)}
+    mutation={{
+      addTodo: mutation(AddTodo),
+    }}
+    render={({ loaded, fetching, refetch, data, error, addTodo }) => {
+      // ...
+    }}
+  />
+);
+```
+
+</L.CodeSlide>
+
+---
+
 import Urkel from './assets/urkel-avatar.svg';
 
 <L.FlexSplit>
@@ -40,6 +87,29 @@ import Urkel from './assets/urkel-avatar.svg';
 
 <Urkel />
 </L.FlexSplit>
+
+---
+
+<L.CodeSlide scale={2}>
+
+```js
+// new urql v1
+import { useQuery, useMutation } from 'urql';
+import gql from 'graphql-tag';
+
+const TodoQuery = gql`query { }`;
+const AddTodo = gql`mutation($text: String!) { }`;
+
+const Home = () => {
+  const [queryRes] = useQuery({ query: TodoQuery });
+  const [addTodoRes, addTodo] = useMutation(AddTodo);
+
+  const { fetching, data, error } = queryRes;
+  return null; // ...
+);
+```
+
+</L.CodeSlide>
 
 ---
 
