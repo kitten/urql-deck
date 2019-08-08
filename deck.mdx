@@ -138,8 +138,8 @@ import GraphQLIO from './assets/graphql-io.svg';
 
 <L.Overview>
 
-## Simplicity
 ## Novelty
+## Simplicity
 ## Extensibility
 
 </L.Overview>
@@ -149,6 +149,53 @@ import GraphQLIO from './assets/graphql-io.svg';
 import KenTweet from './assets/ken-tweet-urql.svg';
 
 <L.VertCenter><KenTweet /></L.VertCenter>
+
+---
+
+<L.SectionCard>
+
+## Novelty
+
+</L.SectionCard>
+
+---
+
+import DlDiagram from './assets/dl-diagram.svg';
+
+<L.VertCenter><DlDiagram /></L.VertCenter>
+
+---
+
+import Urkel from './assets/urkel-avatar.svg';
+
+<L.FlexSplit>
+
+## urql
+
+<Urkel />
+</L.FlexSplit>
+
+---
+
+import andyAvatar from './images/avatar-andy.jpg';
+import joviAvatar from './images/avatar-jovi.jpg';
+import parkerAvatar from './images/avatar-parker.jpg';
+import karaAvatar from './images/avatar-kara.jpg';
+import blaineAvatar from './images/avatar-blaine.jpg';
+import alexAvatar from './images/avatar-alex.jpg';
+
+<C.CenterRow>
+  <C.Avatar src={andyAvatar} />
+  <C.Avatar src={joviAvatar} />
+  <C.Avatar src={parkerAvatar} />
+  <C.Avatar src={avatar} />
+</C.CenterRow>
+
+<C.CenterRow>
+  <C.Avatar smol src={karaAvatar} />
+  <C.Avatar smol src={alexAvatar} />
+  <C.Avatar smol src={blaineAvatar} />
+</C.CenterRow>
 
 ---
 
@@ -207,17 +254,6 @@ const Home = () => (
 
 ---
 
-import Urkel from './assets/urkel-avatar.svg';
-
-<L.FlexSplit>
-
-## urql
-
-<Urkel />
-</L.FlexSplit>
-
----
-
 <L.CodeSlide scale={2}>
 
 ```js
@@ -241,17 +277,38 @@ const Home = () => {
 
 ---
 
-<L.SectionCard>
+<L.CodeSlide scale={2}>
 
-## Novelty
+```js
+import { useQuery } from 'urql';
+import gql from 'graphql-tag';
 
-</L.SectionCard>
+const query = gql`query { }`;
+
+const Outer = () => {
+  const [result] = useQuery({ query });
+  return result.fetching ? null : <Inner />;
+);
+
+const Inner = () => {
+  const [result] = useQuery({ query });
+  // loading isn't true in here!
+  return result.data;
+};
+```
+
+</L.CodeSlide>
 
 ---
 
-import DlDiagram from './assets/dl-diagram.svg';
+<L.Overview>
 
-<L.VertCenter><DlDiagram /></L.VertCenter>
+## New Features from June
+
+- Server-side rendering
+- Suspense support
+
+</L.Overview>
 
 ---
 
@@ -263,9 +320,28 @@ import DlDiagram from './assets/dl-diagram.svg';
 
 ---
 
+<L.Overview secondary>
+
+## Prior Art
+
+- Express Middleware
+- Redux Middleware
+- redux-observable
+- redux-saga
+
+</L.Overview>
+
+---
+
 import StreamDiagram from './assets/stream.svg';
 
 <L.VertCenter><StreamDiagram /></L.VertCenter>
+
+---
+
+“Think of Observables as asynchronous, immutable arrays.”
+
+— André Staltz
 
 ---
 
@@ -289,6 +365,17 @@ import Wonka from './assets/wonka-avatar.svg';
 
 <Wonka />
 </L.FlexSplit>
+
+---
+
+<L.Overview secondary>
+
+- Cross-compatible with **Reason/OCaml**
+- Support for **Flow and TypeScript**
+- Treeshakeable and **tiny**
+- Based on **Callbag-spec**
+
+</L.Overview>
 
 ---
 
@@ -318,6 +405,24 @@ W.pipe(
 
 ---
 
+<L.CodeSlide scale={2.5}>
+
+```js
+fromArray
+fromCallbag
+fromObservable
+fromPromise
+
+toArray
+toCallbag
+toObservable
+toPromise
+```
+
+</L.CodeSlide>
+
+---
+
 <L.CodeSlide scale={1.7}>
 
 ```js
@@ -337,25 +442,42 @@ const exampleExchange = ({ client, forward }) => {
 <L.CodeSlide scale={1.7}>
 
 ```js
-import * as W from 'wonka';
+import { pipe, map, filter } from 'wonka';
 
 const exampleExchange = ({ client, forward }) => {
   return operations$ => {
-    const results$ = pipe(
+    const filteredInput = pipe(
       operations$,
-      W.filter(filterInput),
-      forward
+      map(res => { /* ... */ }),
+      filter(res => { /* ... */ })
     );
+
+    const results$ = forward(filteredInput);
 
     return pipe(
       results$,
-      W.filter(filterOutput)
+      map(res => { /* ... */ })
+      filter(res => { /* ... */ })
     );
   };
 };
 ```
 
 </L.CodeSlide>
+
+---
+
+import DefaultExchanges from './assets/default-exchanges.svg';
+
+<L.VertCenter><DefaultExchanges /></L.VertCenter>
+
+---
+
+import allExchanges from './images/all-exchanges.jpg';
+
+<L.VertCenter>
+  <img src={allExchanges} style={{ maxHeight: '80vh', maxWidth: '80vw' }} />
+</L.VertCenter>
 
 ---
 
