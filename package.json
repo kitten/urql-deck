@@ -13,14 +13,12 @@
     "webpack": "^4.39.1"
   },
   "dependencies": {
-    "mapbox-gl": "^1.2.0",
     "mdx-deck": "^2.3.2",
     "prism-react-renderer": "^0.1.6",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-is": "^16.8.6",
-    "react-mapbox-gl": "^4.4.0",
     "styled-components": "^5.0.0-beta.8"
   }
 }
